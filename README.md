@@ -4,11 +4,11 @@ The following repository contains the analysis of the vary famous Iris dataset.T
 
 We start by import the dataset and then reading it.Data preprocessing was not required much.We then created a model by apply logstic regression which performed quite well on the dataset.We also plotted the Decision Boundaries in 2-D using the two most coorelated features with the target variable.We observed that one class is linearly separable from the other 2; the latter are not linearly separable from each other.We also implemented K-means clustering and visualised the results in 3-D.Further KNN and different SVM classifiers were also implemented.Out of all SVM performed the best.All the different SVM Classifiers were compared and visualised using decision boundaries in 2-D.We observed that linear SVM generalised well whereas polynomial SVM and gaussian SVM seemed to overfit a bit.We used accuracy as the performance metric. 
 
-Python As usual, we will first download our datasets locally, and then we will load them into data frames in both, python.In python, we use pd.read_csv to read CSV files into pandas data.frame variables. Libraries used : 
+Python As usual, we will first download our datasets locally, and then we will load them into data frames in python.In python, we use pd.read_csv to read CSV files into pandas data.frame variables. Libraries used : 
 
 1)library(pandas) #to read .csv file . 
 
-2)library(numpy) #for preprocessing and and data manipulation.
+2)library(numpy) #for preprocessing and data manipulation.
 
 3)library(sklearn.preprocessing) #for LabelEncoder().
 
